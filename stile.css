@@ -2,30 +2,63 @@
     box-sizing: 0;
     margin: 0;
     padding: 0;
+    
 }
 header{
-    position: fixed;
+   position: fixed;
     height: 3rem;
     width: 100%;
     background-color: chocolate;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 
 }
 .header1{
+    align:center;
     color: aliceblue;
-    width: 20%;
+    width: 12%;
+    text-align: center;
     height: auto;
 }
 .header2{
     background-image: url(/img/boolean-logo.png);
-    width: 40%;
-    height: 1rem;
-    background-position: center;
+    width: 8%;
+    height: 1.5rem;
+    background-size:100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
-.header1{
-    width: 20%;
-    height: auto;
+.main{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+    height: 29rem;
+    width: 20rem; 
+}
+
+img{
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+    height: 29rem;
+    width: 20rem; 
+   
+}
+p{
+    opacity: calc(0.5);
+}
+footer{
+    position:static ;
+    height: 1rem;
+    width: 100%;
+    background-color: black;
 }
