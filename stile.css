@@ -1,0 +1,31 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    height: 3rem;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header1{
+    color: aliceblue;
+    width: 20%;
+    height: auto;
+}
+.header2{
+    background-image: url(/img/boolean-logo.png);
+    width: 40%;
+    height: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header1{
+    width: 20%;
+    height: auto;
+}
